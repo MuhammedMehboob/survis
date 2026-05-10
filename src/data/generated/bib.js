@@ -93,10 +93,10 @@
     "yu2022lisnownet": {
         "author": "Yu, Ming-Yuan and Vasudevan, Ram and Johnson-Roberson, Matthew",
         "booktitle": "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-        "doi": "10.1109/IROS47612.2022.9981299",
+        "doi": "10.1109/IROS47612.2022.9982248",
         "keywords": "type:deep-learning, topic:snow-removal, lidar, unsupervised, lisnownet",
         "pages": "6820--6826",
-        "title": "{LiSnowNet}: Real-Time Snow Removal for {LiDAR} Point Cloud",
+        "title": "{LiSnowNet}: Real-Time Snow Removal for {LiDAR} Point Clouds",
         "type": "inproceedings",
         "year": "2022"
     },

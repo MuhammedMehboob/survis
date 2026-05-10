@@ -1,5 +1,6 @@
-const userDefinedTagCategories = {
-	"type": {
-		"description": "type of the paper"
-	}
-}
+define([], function() {
+    return {
+        "type": "Type of Approach",
+        "topic": "Topic"
+    };
+});

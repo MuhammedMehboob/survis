@@ -2,7 +2,7 @@
  * Name as used as title for the main page
  * @type {string}
  */
-var title = 'SurVis Literature Collection';
+var title = 'LiDAR Snow Removal Literature Review';
 
 /**
  * Relative path to the data directory
@@ -47,19 +47,16 @@ var tagCloudOptions = [{
  * If BibTeX entries (and tags) should be editable
  * @type {boolean}
  */
-var editable = true;
+var editable = false;
 
 /**
  * Subtitle describing the paper the data is referring to (set to null to deactivate)
  * @type {{html: string, id: string}}
  */
-var paper = {
-    html: 'Sample literature collection for <b><a href="http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/eurovis14-star.pdf" target="_blank">SurVis</a></b>',
-    id: 'Beck2016Visual'
-};
+var paper = null;
 
 /**
- * Extra pages like an about page that will be listed in the footer an can be opened on demand (page name -> path)
+ * Extra pages like an about page that will be listed in the footer and can be opened on demand (page name -> path)
  */
 var extraPages = {
     'about': 'about.html'
@@ -70,15 +67,15 @@ var extraPages = {
  * @type {string}
  */
 var customStyle = '';
-/* Example for simplified entries */
-//var customStyle = 'styles/custom_entries_simplified.css';
+
+/**
+ * Default tag to filter by on page load
+ * @type {string}
+ */
+var start_tag = 'lidar';
 
 /**
  * Options for showing citation information (set to null to avoid showing any citation information)
- * minCitationCount: minimum number of citations of a paper to be displayed in the visualization
  * @type {{minCitationCount: number}}
  */
-/* var citations = {
-    minCitationCount: 5
-}; */
 var citations = null;

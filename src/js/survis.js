@@ -2,12 +2,12 @@ window.surVisVersion = '0.1.0';
 
 $(document).ready(function () {
   page.init();
-  selectors.toggleSelector('keywords', 'type:rule-based');
-  selectors.toggleSelector('keywords', 'type:deep-learning');
-  selectors.toggleSelector('keywords', 'type:simulation');
-  selectors.toggleSelector('keywords', 'type:survey');
   page.update(true);
   selectors.readQueryFromUrl();
+  setTimeout(function() {
+    selectors.toggleSelector('keywords', 'lidar');
+    page.update(true);
+  }, 500);
 });
 
 $(window).resize(function () {

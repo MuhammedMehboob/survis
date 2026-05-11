@@ -6,6 +6,8 @@ $(document).ready(function () {
   selectors.readQueryFromUrl();
   setTimeout(function() {
     selectors.toggleSelector('keywords', 'lidar');
+    selectors.toggleSelector('keywords', 'agdor');
+    selectors.toggleSelector('keywords', 'crfor');
     page.update(true);
   }, 500);
 });

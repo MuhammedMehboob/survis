@@ -1,6 +1,4 @@
-define([], function() {
-    return {
-        "type": "Type of Approach",
-        "topic": "Topic"
-    };
-});
+var defined_tag_categories = {
+    "type": "Type of Approach",
+    "topic": "Topic"
+};

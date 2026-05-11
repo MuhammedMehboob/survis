@@ -1,4 +1,4 @@
-var defined_tag_categories = {
+var userDefinedTagCategories = {
     "type": "Type of Approach",
     "topic": "Topic"
 };

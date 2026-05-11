@@ -1,4 +1,4 @@
-var defined_authorized_tags = {
+var userDefinedAuthorizedTags = {
     "type:survey": "Comprehensive literature survey paper",
     "type:rule-based": "Rule-based or statistical filtering method",
     "type:deep-learning": "Deep learning or CNN-based method",
